@@ -40,7 +40,7 @@ This repository provides a step-by-step guide and example code for setting up **
    - Create an S3 bucket to store MLflow artifacts.
 
 5. **Create EC2 Machine**:
-   - Launch an EC2 instance (Ubuntu 20.04 preferred).
+   - Launch an EC2 instance.
    - Add a security group allowing traffic on port **5000**.
 
 ---
