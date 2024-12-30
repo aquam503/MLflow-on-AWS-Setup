@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a step-by-step guide and example code for setting up **MLflow** on an AWS EC2 instance with S3 as the artifact storage. The repository includes an example script that demonstrates the use of MLflow for tracking experiments using the ElasticNet regression model.
+This repository provides a step-by-step guide and example code for setting up **MLflow** on an AWS EC2 instance with S3 as the artifact storage. The repository includes an example script that demonstrates the use of MLflow for tracking experiments.
 
 ---
 
