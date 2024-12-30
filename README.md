@@ -37,7 +37,7 @@ This repository provides a step-by-step guide and example code for setting up **
    - Provide the IAM credentials, region, and output format when prompted.
 
 4. **Create S3 Bucket**:
-   - Create an S3 bucket to store MLflow artifacts (e.g., `mlflowtracking-<your-unique-id>`).
+   - Create an S3 bucket to store MLflow artifacts.
 
 5. **Create EC2 Machine**:
    - Launch an EC2 instance (Ubuntu 20.04 preferred).
