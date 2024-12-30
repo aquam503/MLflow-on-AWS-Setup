@@ -47,32 +47,22 @@ This repository provides a step-by-step guide and example code for setting up **
 
 ### EC2 Machine Setup
 
-1. SSH into your EC2 instance:
-   ```bash
-   ssh -i <your-key.pem> ubuntu@<EC2_PUBLIC_IP>
-   ```
-
-2. Run the following commands to set up the environment:
+1. Run the following commands to set up the environment (you can use EC2 connect or SSH):
    ```bash
    sudo apt update
    sudo apt install -y python3-pip pipenv virtualenv
    ```
 
-3. Create a directory for the project:
+2. Create a directory for the project:
    ```bash
    mkdir mlflow
    cd mlflow
    ```
 
-4. Install required Python packages:
+3. Install required Python packages:
    ```bash
    pipenv install mlflow awscli boto3
    pipenv shell
-   ```
-
-5. Configure AWS credentials:
-   ```bash
-   aws configure
    ```
 
 ---
@@ -96,7 +86,7 @@ This repository provides a step-by-step guide and example code for setting up **
 
 ## Example Code
 
-The `app.py` script demonstrates the use of MLflow for tracking an ElasticNet regression model. It includes the following features:
+The `app.py` script demonstrates the use of MLflow for tracking a regression model. It includes the following features:
 - Logging hyperparameters (`alpha`, `l1_ratio`)
 - Tracking metrics (RMSE, MAE, R2 score)
 - Storing the trained model as an artifact
@@ -126,7 +116,7 @@ pip install -r requirements.txt
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/MLflow-on-AWS-Setup.git
+   git clone https://github.com/aquam503/MLflow-on-AWS-Setup.git
    cd MLflow-on-AWS-Setup
    ```
 
